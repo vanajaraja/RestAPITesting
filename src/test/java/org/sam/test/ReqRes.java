@@ -1,10 +1,7 @@
-package org.tcs.test;
+package org.sam.test;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import groovy.json.JsonParser;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 

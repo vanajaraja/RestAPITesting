@@ -1,4 +1,4 @@
-package org.tcs.test;
+package org.sam.test;
 
 public class PayLoad {
 	
@@ -44,4 +44,15 @@ public class PayLoad {
 		
 	}
 
+	public static String signUPUser() {
+		// TODO Auto-generated method stub
+		return ("{\r\n" + 
+				"  \"user\": {\r\n" + 
+				"    \"username\": \"adhiyan336\",\r\n" + 
+				"    \"email\": \"adhiyan336@gmail.com\",\r\n" + 
+				"    \"password\": \"Test@2011\"\r\n" + 
+				"  }\r\n" + 
+				"}");
+
+	}
 }

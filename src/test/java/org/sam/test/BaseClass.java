@@ -1,4 +1,4 @@
-package org.tcs.test;
+package org.sam.test;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
