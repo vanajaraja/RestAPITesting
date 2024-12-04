@@ -49,8 +49,8 @@ public class PayLoad {
 		return ("{\r\n" + 
 				"  \"user\": {\r\n" + 
 				"    \"username\": \"adhiyan336\",\r\n" + 
-				"    \"email\": \"adhiyan336@gmail.com\",\r\n" + 
-				"    \"password\": \"Test@2011\"\r\n" + 
+				"    \"email\": \"**\",\r\n" +
+				"    \"password\": \"***\"\r\n" +
 				"  }\r\n" + 
 				"}");
 

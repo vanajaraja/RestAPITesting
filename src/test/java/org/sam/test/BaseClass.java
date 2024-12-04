@@ -3,7 +3,6 @@ package org.sam.test;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
 import io.restassured.response.Response;
 
 public class BaseClass {

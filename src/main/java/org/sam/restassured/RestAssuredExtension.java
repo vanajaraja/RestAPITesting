@@ -5,13 +5,7 @@ import io.restassured.response.Response;
 
 public class RestAssuredExtension {
 
-public void getMethod(){
-    Response response = RestAssured.given()
-            .header("Content-Type", "application/json").when().get("/api/users");
-
-}
-
-    public static Response sendRequest(String endpoint, String httpMethod, Object payload, String id) {
+   public static Response sendRequest(String endpoint, String httpMethod, Object payload, String id) {
 
         Response response = null;
         switch (httpMethod.toLowerCase()) {
