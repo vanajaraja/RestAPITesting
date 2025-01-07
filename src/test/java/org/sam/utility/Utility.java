@@ -48,7 +48,7 @@ public class Utility {
     // Method to read data from Excel file and return as a map of key-value pairs
     public static List<Map<String, String>> readExcelData(String filePath) throws Exception {
 
-        List<Map<String, String>> dataList = new ArrayList<>();
+        List<Map<String, String>> dataList = new ArrayList<Map<String,String>>();
         FileInputStream fis = new FileInputStream(new File(filePath));
         Workbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0); // Assume data is in the first sheet

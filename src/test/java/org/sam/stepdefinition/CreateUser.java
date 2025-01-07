@@ -28,6 +28,7 @@ public class CreateUser {
     public void verify_create_user_response() {
 
         if (response.getStatusCode() == 201) {
+            System.out.println(response.getBody());
             System.out.println("User Created");
         }
     }

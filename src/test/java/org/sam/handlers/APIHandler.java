@@ -11,7 +11,7 @@ public class APIHandler {
     RestAssuredExtension restExtension = new RestAssuredExtension();
     public Response createUser(String endpoint){
         Users users =Utility.createPayload();
-
+        System.out.println("Request Body"  + users);
         Response response= RestAssuredExtension.sendRequest(TestConfig.baseUrl+endpoint,"post",users,null);
         return response;
     }
